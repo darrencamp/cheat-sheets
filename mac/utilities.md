@@ -13,3 +13,9 @@ What about the options:
 ```bash
 tar czvf file_name.tar.gz folder_to_compress
 ```
+
+## unzip a folder
+
+```bash
+tar -xvf file_name.tar.gz -C destination_foler
+```
