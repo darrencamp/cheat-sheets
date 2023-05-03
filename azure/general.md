@@ -1,3 +1,8 @@
+---
+tags:
+  - azure
+---
+
 # Some Azure Notes
 
 Module name for powershell commandlets `install-module Az`. TIL Powershell on Mac `brew install --cask powershell-preview` and then use `pwsh` shell
@@ -41,3 +46,11 @@ Use this az-cli command to set container settings for azure functionapp deployed
 https://www.c-sharpcorner.com/article/do-you-know-azure-function-have-function-filters/
 
 Function filters, `IFunctionInvocationFilter` and `IFunctionExceptionFilter`, are available but in preview.
+
+
+## app insights
+### query json with a record, use dot notation eg
+```
+exceptions | where customDimensions.OriginalFormat contains "some text"
+```
+

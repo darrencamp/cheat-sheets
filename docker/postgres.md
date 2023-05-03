@@ -1,3 +1,10 @@
+---
+tags:
+  - docker
+  - db
+  - postgres
+---
+
 ## Postgres in docker
 
 pull latest postgres
@@ -18,15 +25,3 @@ running postgres db
 4) In the Windows VM, add inbound and outbound firewall rules to allow TCP port 5432 
 
 5) Restart the Windows VM
-
-
-## Copy from docker image
-`docker cp [OPTIONS] CONTAINER:SRC_PATH DEST_PATH|-`
-
-
-
-## using Azure container registry
-`docker login --name <registry-name>`
-
-TODO: docker login for azure container registry, with login token
-TODO: push to Azure CR
