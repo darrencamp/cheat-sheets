@@ -54,3 +54,6 @@ Function filters, `IFunctionInvocationFilter` and `IFunctionExceptionFilter`, ar
 exceptions | where customDimensions.OriginalFormat contains "some text"
 ```
 
+
+Managed Identity stuff
+https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference?tabs=blob#local-development-with-identity-based-connections
